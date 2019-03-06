@@ -1,0 +1,21 @@
+body {
+  background-color: lightskyblue;
+}
+
+
+.jumbotron {
+  margin: 50px 0px 50px 0px;
+  color: aliceblue;
+  background-color: black;
+}
+
+.trucks {
+  background-color: black;
+  color: aliceblue;
+}
+
+.info {
+  background-color: black;
+  color: aliceblue;
+}
+  
