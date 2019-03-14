@@ -1,12 +1,41 @@
 body {
-  background-color: lightskyblue;
+  background-color: rgb(151, 0, 0);
 }
 
+.bd-example {
+  margin:0px 0px 10px 0px;
+}
 
 .jumbotron {
-  margin: 50px 0px 50px 0px;
-  color: aliceblue;
-  background-color: black;
+  margin:0px 0px 20px 0px;
+  border-radius:10px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.699), 
+    rgba(255, 255, 255, 0.431)
+  ),
+  url("../assets/pictures/food\ banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:400px;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: aliceblue ;
+  font-family: teeshirt, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.jumbotron p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: rosella-flourish, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .trucks {
@@ -18,4 +47,31 @@ body {
   background-color: black;
   color: aliceblue;
 }
+
+#buttonItems2 {
+margin-top: 50px;
+}
+
+.btn-lg {
+  margin: 5px;
+  padding: 15px;
+}
+
+.buttonInfo {
+  color: aliceblue;
+  margin-top: 50px;
+  font-weight: bold;
+  }
+
+.btn-lg:hover {
+  border-color: rgba(255,255,255,1);
+}
+
+.form-control {
+  margin: 20px;
+}
+
+
+
+
   
