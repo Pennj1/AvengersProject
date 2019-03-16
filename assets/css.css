@@ -41,6 +41,7 @@ body {
 .trucks {
   background-color: black;
   color: aliceblue;
+  margin-top: 20px;
 }
 
 .info {
@@ -71,6 +72,28 @@ margin-top: 50px;
   margin: 20px;
 }
 
+#truckRow {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: rosella-flourish, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+#charlotteWeather{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: rosella-flourish, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 
 
