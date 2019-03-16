@@ -1,11 +1,12 @@
 body {
   background-color: rgb(151, 0, 0);
 }
-
 .bd-example {
   margin:0px 0px 10px 0px;
 }
-
+.table thead th {
+  color: white;
+}
 .jumbotron {
   margin:0px 0px 20px 0px;
   border-radius:10px;
@@ -19,7 +20,6 @@ body {
   background-attachment: fixed;
   height:400px;
 }
-
 .jumbotron h1 {
   text-align: center;
   color: aliceblue ;
@@ -28,7 +28,6 @@ body {
   font-weight: 500;
   font-size: 100px;
 }
-
 .jumbotron p {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -37,41 +36,39 @@ body {
   font-weight: 200;
   font-size: 30px;
 }
-
 .trucks {
   background-color: black;
   color: aliceblue;
   margin-top: 20px;
 }
-
 .info {
   background-color: black;
   color: aliceblue;
 }
-
 #buttonItems2 {
 margin-top: 50px;
 }
-
 .btn-lg {
   margin: 5px;
   padding: 15px;
 }
-
 .buttonInfo {
   color: aliceblue;
-  margin-top: 50px;
+  margin: 100px 20px 20px 20px;
   font-weight: bold;
   }
-
+  #buttonItems2 {
+    margin: 0px 20px 0px 20px;
+  }
+.btn-secondary {
+  margin: 0px 20px 10px 20px;
+}
 .btn-lg:hover {
   border-color: rgba(255,255,255,1);
 }
-
 .form-control {
-  margin: 20px;
+  margin: 50px 20px 10px 20px;
 }
-
 #truckRow {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -82,8 +79,6 @@ margin-top: 50px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-
-
 #charlotteWeather{
   text-align: center;
   color: rgb(255, 255, 255);
@@ -94,7 +89,3 @@ margin-top: 50px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
-
-
-  
