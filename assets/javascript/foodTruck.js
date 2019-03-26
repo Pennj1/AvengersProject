@@ -12,7 +12,7 @@ function displayTruckInfo() {
   var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=" + truckTerm + "&latitude=35.2271&longitude=-80.8431",
+    "url": "https://immense-savannah-32940.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=" + truckTerm + "&latitude=35.2271&longitude=-80.8431",
     "method": "GET",
     "headers": {
       "Authorization": "Bearer aYy9xWONrtrnWaDoz0Js2J1RkuPGT5QpxuTgNL6Wsn4Tup5Ef-AolHisHeX6Cz6DdKaZUofEDqXG8ZQKmPnsNYzvTYyuNecZgxPcHvLbTMKAoD3CW6Plu5e0IdB9XHYx",
